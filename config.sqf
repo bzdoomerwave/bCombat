@@ -174,7 +174,7 @@ bcombat_allow_hearing_grenade_distance = 250;		// (Meters) Max. distance for gre
 // Known issues: possible frendly fire issues
 
 bcombat_allow_grenades = true;						// (Boolean) Toggle feature on / off
-bcombat_grenades_additional_number = 1; 			// (Number) number of additional grenades to be automatically ADDED to unit loadout
+bcombat_grenades_additional_number = 0; 			// (Number) number of additional grenades to be automatically ADDED to unit loadout
 bcombat_grenades_distance = [6,45,6]; 				// (Array) [ minimum distance, maximum distance, min. distance from target for friendly units] 
 bcombat_grenades_timeout = [15, 10];				// (Array) [ unit timeout, group timeout ]
 bcombat_grenades_no_los_only = true; 				// (Boolean) Whether enemy should be out of line-of-sight, for a unit to throw grenade
